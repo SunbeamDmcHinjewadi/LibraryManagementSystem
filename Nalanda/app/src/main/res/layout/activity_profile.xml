@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:gravity="center_horizontal"
+    tools:context="Librarian.activity.RegisterActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/imgpro"
+        />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textSize="17dp"
+        android:id="@+id/textName"
+        android:text="Name : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="7dp"
+        android:textSize="17dp"
+        android:id="@+id/textEmail"
+        android:text="Email : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="7dp"
+        android:textSize="15dp"
+        android:id="@+id/textContact"
+        android:text="Contact : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#FF8800"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/purple_200"
+        android:onClick="back"
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
